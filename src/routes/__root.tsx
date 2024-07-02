@@ -5,7 +5,7 @@ export const Route = createRootRoute({
   component: () => (
     <main
       className={
-        "flex h-screen min-h-screen flex-col bg-background px-3 py-6 font-geist text-foreground"
+        "flex h-screen min-h-screen flex-col bg-background p-3 font-geist text-foreground"
       }
     >
       <Navbar />
